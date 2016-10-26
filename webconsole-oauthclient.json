@@ -1,0 +1,15 @@
+{
+  "kind": "OAuthClient",
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "openshift-web-console1"
+  },
+  "secret": "43446777-3427-4219-9b85-aab055dc76f6",
+  "redirectURIs": [
+    "https://192.168.0.100:8443/console/",
+    "http://localhost:9000",
+    "https://localhost:9000",
+    "https://192.168.0.100:9000"
+  ],
+  "grantMethod": "auto"
+}
